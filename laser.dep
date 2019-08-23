@@ -1,126 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>4019952972</fileChecksum>
+    <fileChecksum>1228869312</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_it.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\inc\usart.h</file>
-            <file>$PROJ_DIR$\inc\stm8s_it.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_it.o</file>
             <file>$PROJ_DIR$\Debug\Exe\laser.out</file>
             <file>$PROJ_DIR$\inc\stm8s.h</file>
             <file>$PROJ_DIR$\Debug\Obj\usart.o</file>
             <file>$PROJ_DIR$\inc\main.h</file>
-            <file>$PROJ_DIR$\Debug\List\laser.map</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_it.xcl</file>
             <file>$PROJ_DIR$\src\main.c</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
-            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\usart.xcl</file>
-            <file>$TOOLKIT_DIR$\config\lnkstm8s103f3.icf</file>
             <file>$PROJ_DIR$\src\stm8s_it.c</file>
             <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\laser.pbd</file>
             <file>$PROJ_DIR$\src\usart.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\usart.__cstat.et</file>
+            <file>$PROJ_DIR$\src\debug.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug.o</file>
+            <file>$PROJ_DIR$\inc\debug.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 9 5</file>
+                    <file> 3</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\laser.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 9</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 17 1 4 7 12 13</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\src\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 1</file>
+                    <file> 0</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 19</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 15</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 8 6 14 2</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\src\stm8s_it.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 4</file>
+                    <file> 2</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 10</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 0</file>
+                    <file> 7</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 3 6 14 8 2</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\src\usart.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 7</file>
+                    <file> 5</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\debug.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
                     <file> 16</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 22</file>
+                    <name>BICOMP</name>
+                    <file> 15</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 2 8 6 14</file>
-                </tool>
-            </inputs>
         </file>
     </configuration>
     <configuration>

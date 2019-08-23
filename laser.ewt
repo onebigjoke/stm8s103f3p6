@@ -2156,6 +2156,9 @@
     <group>
         <name>inc</name>
         <file>
+            <name>$PROJ_DIR$\inc\debug.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\inc\main.h</name>
         </file>
         <file>
@@ -2167,6 +2170,9 @@
     </group>
     <group>
         <name>src</name>
+        <file>
+            <name>$PROJ_DIR$\src\debug.c</name>
+        </file>
         <file>
             <name>$PROJ_DIR$\src\main.c</name>
         </file>
